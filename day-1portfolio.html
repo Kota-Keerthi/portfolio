@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keerti kota</title>
+    <!--<link rel="stylesheet" href="day-1portfoliocss.css">-->
+    <style>
+        
+        body{
+            font-size: arial,sans-serif;
+            margin: 0;
+            background-color: white;
+        }
+        header{
+            background-color: chartreuse;
+            padding: 10px;
+            text-align: center;
+        }
+        #a{
+            position: inline;
+            font-size: 20px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 40%;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        img{
+            position: relative;
+            left: 40px;
+            height: 400px;
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 9px black;
+        }
+        footer{
+            background-color: brown;
+            color: white;
+            padding: 20px 15px;
+            text-align: center;
+            position: relative;
+          align-items: center;
+          justify-content: center;
+            width: 100%;
+            height: 50px;
+            
+        }
+        #Project{
+            width: 90%;
+        }
+        #projects p{
+            position: relative;
+            text-align: justify;
+            direction: ltr;
+            height: 200px;
+            width: 100px;
+
+        }
+
+        .about-project{
+            height: 200px;
+            width: 450px;
+            position: relative;
+            left: 500px;
+            top: -400px;
+            text-align:left ;
+            border: 1px solid black;
+            line-height: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 15px;
+            padding: 20px ;
+
+        }
+        footer>div>{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        div>ol{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            list-style: none;
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Keerthi Kota</h1>
+        <div class="container">
+          <a href="#">Home </a>
+                <a href="#">About Me</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact Me</a>
+        </div>
+    </header>
+    <section id="About">
+        <h2>About Me</h2>
+        <p>
+            <h5>Hai Everyone..!<br>This is Keerthi</h5>
+            <ul>
+                <li>I am a final year undergraduate specializing in Artificial Intelligence and Data Science<br> with a strong passion for leveraging cutting-edge technologies to extract valuable insights from data.</li>
+                <li>I am dedicated to continuous learning and problem-solving.</li>
+                <li>I am seeking opportunities where I can apply my academic knowledge and practical experience.</li>
+                <li>I will be in on time.</li>
+                <li>I am very punctual and Hard-working.</li>
+           </p>
+    </section>
+    <section id="Project">
+        <h2>Projects</h2><br><h3>1. Awareness on Health Issues</h3>
+        <div>
+            <img src="https://www.kff.org/wp-content/uploads/2013/07/slide20.png?resize=758" >
+            <p class="about-project">By raising public awareness about important health issues, healthcare campaign scan reduce ill-health and premature deaths from diseases that are treatable if they are addressed in time. The importance of health awareness campaigns lies in giving people the opportunity to take accountability for their health. General understanding and knowledge about health, healthcare and its services, health needs, diseases, and preventive measures.</p>
+        </div>
+    </section>
+    <section>
+        <h3>2. Fake News Detection Using Machine Learning and Python</h3>
+        <div>
+            <img src="https://dezyre.gumlet.io/images/blog/fake-news-detection-project/Fake_News_Detection_Project.png?w=576&dpr=1.3">
+            <p class="about-project">For detecting fake news with Python, start by first preprocessing the input text, getting numerical features, and then training a machine learning model like SVM, LSTM, or an RNN to predict whether the news is reliable or not.
+                A logistic regression model can be trained on a binary classification task. Since this problem is largely binary, vectors representing the news text can be used to train a logistic regression model and predict one of the two classes.
+            </p>
+        </div>
+    </section>
+    <section id="Contact">
+        <h2>Contact Me:</h2>
+        <p>E-Mail Address: keerthikota625@gmail.c0m<br>
+            Cell no:<span>6303198833</span><br>
+            Address:
+            I.B.Peta,Koduru Mandal,Krishna District.<br>
+        </p>
+    </section>
+    <div class="container">
+    <footer><div>
+        <ol>
+        <li>&copy;2024 Contact:</li>
+        <li>E-mail id-keerthikota625@gmail.com</li>
+        <li>phone number-6303198833</li>
+        <br><br><br><br>
+    </ol>
+    </div>
+</footer>
+</div>
+</body>
+</html>
